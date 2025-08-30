@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Ed25519 Online Tool</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		* {
+			font-family: 'Ubuntu Mono', monospace;
+			font-size: 18px;
+		}
+		@media screen and (max-width: 114514px) {
+			div {
+				width: 100%;  /* 小屏时自动充满并换行 */
+			}
+			body {
+				width: 100%;
+			}
+			
+		}
+		body {
+			margin-left: 20px;
+		}
+
+		button,
+		select,
+		input,
+		textarea {
+			padding: 7px;
+			margin: 5px;
+		}
+
+		/* li {
+			padding-bottom: 15px;
+		} */
+
+		span {
+			white-space: nowrap;
+		}
+
+		#AppMessage,
+		h1 {
+			font-weight: bold;
+			font-size: 24px;
+		}
+
+		.footnote,
+		.footnote p,
+		.footnote a,
+		.footnote li {
+			font-size: 16px;
+		}
+
+		#share1,
+		#share2 {
+			display: inline-block;
+		}
+
+		/* .grid-container {
+			display: grid;
+			align-items: center;
+			/* grid-template-columns: 200px auto; 
+			row-gap: 12px;
+		} */
+	</style>
+</head>
+<body>
+	<h1> NickJi's ED25519 signatures for my social accounts </h1>
+	<h3> Someone pretended to be me to scam others. So I make this page to show you my real accounts. Signed by Asymmetric encryption using ED25519 algorithm </h3>
+	<hr>
+
+	<div class="grid-container">
+		<div>
+			Read first:
+			<ul>
+				<li><a href="https://en.wikipedia.org/wiki/Public-key_cryptography">What is Asymmetric encryption</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/EdDSA#Ed25519">What is EdDSA(ED25519)</a></li>
+			</ul>
+		</div>
+		<div>
+			Tool for verification: <a href="https://ed25519.altr.dev/">Ed25519 signature tools</a> or <a href="https://cyphr.me/ed25519_tool/ed.html#?key_enc=B64">ed25519_tool</a>
+		</div>
+		<i>
+		As you readed about the algorithm, I can't show you the private key by security reasons, but you can verify if a text is signed by the private key which only I have.
+		In this scene is to proof the social media account is belongs to me.
+		</i>
+		<div>
+			<h2>My Public Key: </h2>
+			<ul>
+				<li>
+					In Base64 format:
+					<br>
+					<code>+j++LbYgnubYuBwgfPegu+TtdrGgxyUhTDl+C5xUVt4=</code>
+				</li>
+				<li>
+					In Hex format:
+					<br>
+					<code>FA3FBE2DB6209EE6D8B81C207CF7A0BBE4ED76B1A0C725214C397E0B9C5456DE</code>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h2>My social media accounts:</h2>
+			<ul>
+				<li>
+					<h3>Github</h3>
+					<ul>
+						<li>User URL: <a href="https://github.com/NickJi2019">https://github.com/NickJi2019</a></li>
+						<li>Signature(Base64): <code>fDWPH4V1+rS7sE/UySX2rL/x9Bb6LeUstd2dWznub0MscKWS33yBz8kJdtk8BUPW70QqphnvnIKRERdECqwWDg==</code></li>
+						<li>Signature(Hex): <code>7c358f1f8575fab4bbb04fd4c925f6acbff1f416fa2de52cb5dd9d5b39ee6f432c70a592df7c81cfc90976d93c0543d6ef442aa619ef9c82911117440aac160e</code></li>
+					</ul>
+				</li>
+				<li>
+					<h3>Steam</h3>
+					<ul>
+						<li>User URL: <a href="https://steamcommunity.com/profiles/76561199040091970">https://steamcommunity.com/profiles/76561199040091970</a></li>
+						<li>Signature(Base64): <code>sIXKt6RVP9LM//GAr+tOit3ZIAaxZVC264nfasl6emAmE5tUETRMZBXnQHuwDuAxmeGinewuMfh7GEcwi/A8Cg==</code></li>
+						<li>Signature(Hex): <code>b085cab7a4553fd2ccfff180afeb4e8addd92006b16550b6eb89df6ac97a7a6026139b5411344c6415e7407bb00ee03199e1a29dec2e31f87b1847308bf03c0a</code></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		
+
+	</div>
+	
+
+
+
+	<hr>
+	<div class="footnote">
+		<ul>
+			<li><a href="https://github.com/Cyphrme/Ed25519Tool">Source code on Github</a></li>
+			<li><a href="https://blog.mozilla.org/warner/2011/11/29/ed25519-keys"> Mozilla blog, "How do Ed25519 keys work?"</a></li>
+		</ul>
+	</div>
+
+
+</body>
